@@ -9,8 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.8-4.tar.gz
-Requires:         R-splines R-methods R-stats R-stats4 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-splines R-methods R-stats R-stats4
+Requires:         R-splines R-methods R-stats R-stats4
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-splines R-methods R-stats R-stats4
 
 %description
 Vector generalized linear and additive models, and associated models
