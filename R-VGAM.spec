@@ -9,9 +9,18 @@ Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.8-4.tar.gz
-Requires:         R-splines R-methods R-stats R-stats4
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-splines R-methods R-stats R-stats4
+Requires:         R-splines
+Requires:         R-methods
+Requires:         R-stats
+Requires:         R-stats4 
+BuildRequires:    R-devel
+BuildRequires:    Rmath-devel
+BuildRequires:    texlive-collection-latex
+BuildRequires:    R-splines
+BuildRequires:    R-methods
+BuildRequires:    R-stats
+BuildRequires:    R-stats4
+BuildRequires:    pkgconfig(lapack)
 
 %description
 Vector generalized linear and additive models, and associated models
@@ -48,3 +57,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/demo
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.8_4-1
++ Revision: 776297
+- Import R-VGAM
+- Import R-VGAM
+
