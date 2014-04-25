@@ -15,6 +15,8 @@ Requires:         R-methods
 Requires:         R-stats
 Requires:         R-stats4 
 BuildRequires:    R-devel
+BuildRequires: R-VGAMdata
+Requires: R-VGAMdata
 BuildRequires:    Rmath-devel
 BuildRequires:    texlive-collection-latex
 BuildRequires:    R-splines
