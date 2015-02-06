@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.9.0
-Release:          2
+Release:          3
 Summary:          Vector Generalized Linear and Additive Models
 Group:            Sciences/Mathematics
 License:          GPL-2
