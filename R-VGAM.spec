@@ -7,7 +7,7 @@ Release:          3
 Summary:          Vector Generalized Linear and Additive Models
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/VGAM_0.9-0.tar.gz
 Requires:         R-splines
 Requires:         R-methods
